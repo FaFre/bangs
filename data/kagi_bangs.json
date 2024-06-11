@@ -1,8 +1,8 @@
 [
   {
-    "s": "Kagi Search TEST",
+    "s": "Kagi Search TEST2",
     "d": "kagi.com",
-    "t": "k",
+    "t": "k2",
     "u": "/search?q={{{s}}}"
   },
   {
