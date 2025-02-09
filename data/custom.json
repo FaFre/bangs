@@ -2,7 +2,7 @@
   {
     "s": "Lensai",
     "d": "search.lensai.eu",
-    "t": "searx",
+    "t": "lai",
     "u": "https://search.lensai.eu/?q={{{s}}}",
     "c": "Online Services",
     "sc": "Search"
