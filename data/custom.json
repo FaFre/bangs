@@ -1,0 +1,10 @@
+[
+  {
+    "s": "Lensai",
+    "d": "search.lensai.eu",
+    "t": "searx",
+    "u": "https://search.lensai.eu/?q={{{s}}}",
+    "c": "Online Services",
+    "sc": "Search"
+  }
+]
