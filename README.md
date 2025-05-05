@@ -83,7 +83,6 @@ Adding new region bangs will be handled on a case-by-case basis.
 | do      | DigitalOcean                      | Tech            | Dominican Republic                           |
 | dz      | Deezer                            | Multimedia      | Algeria                                      |
 | ec      | Ecosia                            | Online Services | Ecuador                                      |
-| ee      | Kagi Search                       | Tech            | Estonia                                      |
 | eg      | Kagi Search                       | Entertainment   | Egypt                                        |
 | eh      | English Heritage                  | Entertainment   | Western Sahara                               |
 | er      | Erowid                            | Research        | Eritrea                                      |
@@ -164,7 +163,7 @@ Adding new region bangs will be handled on a case-by-case basis.
 | ni      | National Instruments              | Tech            | Nicaragua                                    |
 | np      | The Noun Project                  | Multimedia      | Nepal                                        |
 | nr      | Nixpkgs Repository                | Tech            | Nauru                                        |
-| nu      | Nu.nl                             | News            | Niue                                         |
+| nu      | nu.nl                             | News            | The Netherlands                              |
 | pa      | Páginas Amarillas                 | Online Services | Panama                                       |
 | pe      | Dicionário Porto Editora          | Research        | Peru                                         |
 | pf      | PrintFriendly                     | Online Services | French Polynesia                             |
@@ -346,6 +345,7 @@ This is a list of possible categories, with their corresponding subcategories.
 <details>
 <summary>Subcategories</summary>
 
+  - AI Chatbots
   - Events
   - Google
   - Jobs
