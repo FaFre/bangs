@@ -8,6 +8,14 @@
     "sc": "Downloads (apps)"
   },
   {
+    "s": "ADS-B Exchange",
+    "d": "www.adsbexchange.com",
+    "t": "adsb",
+    "u": "https://www.adsbexchange.com/?icao={{{s}}}",
+    "c": "Research",
+    "sc": "Travel"
+  },
+  {
     "s": "BMW 2002 FAQ",
     "d": "www.bmw2002faq.com",
     "t": "02faq",
@@ -1273,10 +1281,10 @@
     "sc": "Games (offline)"
   },
   {
-    "s": "Abe's Market",
-    "d": "www.abesmarket.com",
+    "s": "Amazon Belgium",
+    "d": "www.amazon.com.be",
     "t": "abe",
-    "u": "https://www.abesmarket.com/catalogsearch/result/?cat=5&order=relevance&dir=desc&q={{{s}}}",
+    "u": "https://www.amazon.com.be/s?k={{{s}}}",
     "c": "Shopping",
     "sc": "Online"
   },
@@ -2895,9 +2903,9 @@
   },
   {
     "s": "alesund kommune",
-    "d": "www.alesund.kommune.no",
+    "d": "alesund.kommune.no",
     "t": "alesund",
-    "u": "https://www.alesund.kommune.no/component/finder/search?q={{{s}}}&Itemid=406",
+    "u": "https://alesund.kommune.no/sok.aspx?MId1=8&searchTerm={{{s}}}",
     "c": "Online Services",
     "sc": "Social"
   },
@@ -3510,12 +3518,12 @@
     "sc": "Services"
   },
   {
-    "s": "Amazon.com",
-    "d": "www.amazon.com",
+    "s": "Apple Maps",
+    "d": "maps.apple.com",
     "t": "am",
-    "u": "https://www.amazon.com/s?k={{{s}}}",
-    "c": "Shopping",
-    "sc": "Online"
+    "u": "https://maps.apple.com/?q={{{s}}}",
+    "c": "Online Services",
+    "sc": "Maps"
   },
   {
     "s": "Amanz",
@@ -5500,7 +5508,7 @@
     "s": "ArchLinux User Repository",
     "d": "aur.archlinux.org",
     "t": "archaur",
-    "u": "https://aur.archlinux.org/packages.php?O=0&K={{{s}}}&do_Search=Go",
+    "u": "https://aur.archlinux.org/packages?O=0&K={{{s}}}",
     "c": "Tech",
     "sc": "Languages (other)"
   },
@@ -5629,6 +5637,14 @@
     "fmt": [
       "open_base_path"
     ]
+  },
+  {
+    "s": "Archivportal-D",
+    "d": "archivportal-d.de",
+    "t": "archivpd",
+    "u": "https://archivportal-d.de/objekte?query={{{s}}}",
+    "c": "Research",
+    "sc": "Academic"
   },
   {
     "s": "ArchWikiJP",
@@ -9159,6 +9175,22 @@
     "u": "https://www.bankgirot.se/en/sok-bg-nr/?orgnr={{{s}}}",
     "c": "Online Services",
     "sc": "Tools"
+  },
+  {
+    "s": "bavarikon",
+    "d": "bavarikon.de",
+    "t": "bav",
+    "u": "https://bavarikon.de/search?terms={{{s}}}",
+    "c": "Research",
+    "sc": "Academic"
+  },
+  {
+    "s": "bavarikon",
+    "d": "bavarikon.de",
+    "t": "bavarikon",
+    "u": "https://bavarikon.de/search?terms={{{s}}}",
+    "c": "Research",
+    "sc": "Academic"
   },
   {
     "s": "Hurricane Electrics Internet Services",
@@ -14379,6 +14411,14 @@
     "sc": "AI Chatbots"
   },
   {
+    "s": "Le Chat",
+    "d": "chat.mistral.ai",
+    "t": "mistral",
+    "u": "https://chat.mistral.ai/chat?q={{{s}}}",
+    "c": "Online Services",
+    "sc": "AI Chatbots"
+  },
+  {
     "s": "OpenRouter",
     "d": "openrouter.ai",
     "t": "opr",
@@ -17403,10 +17443,34 @@
     "sc": "Games (specific)"
   },
   {
-    "s": "Chromium bugs",
-    "d": "bugs.chromium.org",
+    "s": "Chromium Code",
+    "d": "source.chromium.org",
+    "t": "chromium",
+    "u": "https://source.chromium.org/search?q={{{s}}}&ss=chromium/chromium/src",
+    "c": "Tech",
+    "sc": "Programming"
+  },
+  {
+    "s": "Chromium Code",
+    "d": "source.chromium.org",
+    "t": "crcode",
+    "u": "https://source.chromium.org/search?q={{{s}}}&ss=chromium/chromium/src",
+    "c": "Tech",
+    "sc": "Programming"
+  },
+  {
+    "s": "Chromium Issues",
+    "d": "issues.chromium.org",
     "t": "crbug",
-    "u": "https://bugs.chromium.org/p/chromium/issues/list?q={{{s}}}",
+    "u": "https://issues.chromium.org/issues?q={{{s}}}",
+    "c": "Tech",
+    "sc": "Programming"
+  },
+  {
+    "s": "Chromium Issues",
+    "d": "issues.chromium.org",
+    "t": "crissue",
+    "u": "https://issues.chromium.org/issues?q={{{s}}}",
     "c": "Tech",
     "sc": "Programming"
   },
@@ -20454,9 +20518,9 @@
   },
   {
     "s": "Deichmanske Biblotek",
-    "d": "sok.deichman.no",
+    "d": "deichman.no",
     "t": "deic",
-    "u": "https://sok.deichman.no/search?query={{{s}}}",
+    "u": "https://deichman.no/sok/{{{s}}}",
     "c": "Research",
     "sc": "Academic"
   },
@@ -22421,10 +22485,10 @@
     "sc": "Languages (.net)"
   },
   {
-    "s": "Deutsche National Bibliothek",
+    "s": "Deutsche Nationalbibliothek",
     "d": "portal.dnb.de",
     "t": "dnb",
-    "u": "https://portal.dnb.de/opac.htm?query={{{s}}}&method=simpleSearch",
+    "u": "https://portal.dnb.de/opac/simpleSearch?query={{{s}}}",
     "c": "Research",
     "sc": "Academic"
   },
@@ -24353,9 +24417,9 @@
   },
   {
     "s": "The Doctor Who Wiki",
-    "d": "tardis.wikia.com",
+    "d": "tardis.wiki",
     "t": "dww",
-    "u": "https://tardis.wikia.com/wiki/index.php?search={{{s}}}",
+    "u": "https://tardis.wiki/wiki/Special:Search?search={{{s}}}",
     "c": "Entertainment",
     "sc": "TV"
   },
@@ -25730,6 +25794,14 @@
     "u": "http://www.ehow.com/search.html?s={{{s}}}",
     "c": "Tech",
     "sc": "Blogs"
+  },
+  {
+    "s": "European Holocaust Research Infrastructure",
+    "d": "portal.ehri-project.eu",
+    "t": "ehri",
+    "u": "https://portal.ehri-project.eu/search?q={{{s}}}",
+    "c": "Research",
+    "sc": "Academic"
   },
   {
     "s": "Evony Hookups",
@@ -28237,10 +28309,10 @@
     "sc": "Search (non-US)"
   },
   {
-    "s": "Europeana.eu",
+    "s": "Europeana",
     "d": "europeana.eu",
     "t": "europeana",
-    "u": "https://europeana.eu/portal/search.html?query={{{s}}}",
+    "u": "https://europeana.eu/search?query={{{s}}}",
     "c": "Multimedia",
     "sc": "General"
   },
@@ -42458,6 +42530,22 @@
     "sc": "Misc"
   },
   {
+    "s": "historicum",
+    "d": "historicum.net",
+    "t": "hcum",
+    "u": "https://historicum.net/historicumsearch/Blender/Results?lookfor={{{s}}}",
+    "c": "Research",
+    "sc": "Academic"
+  },
+  {
+    "s": "historicum",
+    "d": "historicum.net",
+    "t": "historicum",
+    "u": "https://historicum.net/historicumsearch/Blender/Results?lookfor={{{s}}}",
+    "c": "Research",
+    "sc": "Academic"
+  },
+  {
     "s": "Historious",
     "d": "historio.us",
     "t": "historious",
@@ -43486,6 +43574,14 @@
     "sc": "Video"
   },
   {
+    "s": "H-Soz-Kult",
+    "d": "www.hsozkult.de",
+    "t": "hsozkult",
+    "u": "https://www.hsozkult.de/searching/page?q={{{s}}}",
+    "c": "Research",
+    "sc": "Academic"
+  },
+  {
     "s": "Html2Txt",
     "d": "www.w3.org",
     "t": "html2txt",
@@ -43747,6 +43843,14 @@
     "u": "https://www.humblebundle.com/store/search?sort=bestselling&search={{{s}}}",
     "c": "Entertainment",
     "sc": "Games (general)"
+  },
+  {
+    "s": "Discu.eu",
+    "d": "discu.eu",
+    "t": "discu",
+    "u": "https://discu.eu/?q={{{s}}}",
+    "c": "News",
+    "sc": "Social news/links"
   },
   {
     "s": "huskermax",
@@ -45866,7 +45970,7 @@
     "s": "Innsida NTNU",
     "d": "innsida.ntnu.no",
     "t": "innsida",
-    "u": "https://innsida.ntnu.no/sok?site=innsida&query={{{s}}}&category=all",
+    "u": "https://innsida.ntnu.no/sok/?q={{{s}}}",
     "c": "Research",
     "sc": "Academic"
   },
@@ -47659,6 +47763,14 @@
     "u": "https://www.jetpens.com/search?q={{{s}}}",
     "c": "Shopping",
     "sc": "Online (marketplace)"
+  },
+  {
+    "s": "JetPhotos",
+    "d": "www.jetphotos.com",
+    "t": "jetphoto",
+    "u": "https://www.jetphotos.com/photo/keyword/{{{s}}}",
+    "c": "Research",
+    "sc": "Travel"
   },
   {
     "s": "JeuxVideo",
@@ -51669,9 +51781,9 @@
   },
   {
     "s": "Lebendiges Museum Online",
-    "d": "www.hdg.de",
+    "d": "dhm.de",
     "t": "lemo",
-    "u": "https://www.hdg.de/lemo/search/?q={{{s}}}",
+    "u": "https://dhm.de/lemo/search?q={{{s}}}",
     "c": "Multimedia",
     "sc": "Docs"
   },
@@ -55748,7 +55860,7 @@
     "s": "MatPrat",
     "d": "www.matprat.no",
     "t": "matprat",
-    "u": "https://www.matprat.no/sok/#1/all/{{{s}}}/",
+    "u": "https://www.matprat.no/sok?searchFor={{{s}}}",
     "c": "Research",
     "sc": "Food"
   },
@@ -58124,14 +58236,6 @@
     "sc": "Books"
   },
   {
-    "s": "Mistral Chat",
-    "d": "chat.mistral.ai",
-    "t": "mistral",
-    "u": "https://chat.mistral.ai/chat?q={{{s}}}",
-    "c": "Online Services",
-    "sc": "Tools"
-  },
-  {
     "s": "Misumi USA",
     "d": "us.misumi-ec.com",
     "t": "misumi",
@@ -59966,11 +60070,35 @@
   },
   {
     "s": "Microsoft Store",
-    "d": "www.microsoft.com",
+    "d": "apps.microsoft.com",
+    "t": "microsoftstore",
+    "u": "https://apps.microsoft.com/search?query={{{s}}}",
+    "c": "Tech",
+    "sc": "Downloads (software)"
+  },
+  {
+    "s": "Microsoft Store",
+    "d": "apps.microsoft.com",
+    "t": "mss",
+    "u": "https://apps.microsoft.com/search?query={{{s}}}",
+    "c": "Tech",
+    "sc": "Downloads (software)"
+  },
+  {
+    "s": "Microsoft Store",
+    "d": "apps.microsoft.com",
     "t": "mstore",
-    "u": "https://www.microsoft.com/en-us/search?q={{{s}}}",
-    "c": "Shopping",
-    "sc": "Online"
+    "u": "https://apps.microsoft.com/search?query={{{s}}}",
+    "c": "Tech",
+    "sc": "Downloads (software)"
+  },
+  {
+    "s": "Microsoft Store",
+    "d": "apps.microsoft.com",
+    "t": "winstore",
+    "u": "https://apps.microsoft.com/search?query={{{s}}}",
+    "c": "Tech",
+    "sc": "Downloads (software)"
   },
   {
     "s": "Meteo Suisse / Schweiz",
@@ -60315,6 +60443,14 @@
     "u": "https://macupdate.com/find/mac/context={{{s}}}",
     "c": "Tech",
     "sc": "Downloads (software)"
+  },
+  {
+    "s": "Münchener DigitalisierungsZentrum",
+    "d": "digitale-sammlungen.de",
+    "t": "mdz",
+    "u": "https://digitale-sammlungen.de/search?query={{{s}}}",
+    "c": "Research",
+    "sc": "Academic"
   },
   {
     "s": "Mungfali",
@@ -61520,7 +61656,7 @@
     "s": "Nasjonalbiblioteket",
     "d": "www.nb.no",
     "t": "nb",
-    "u": "https://www.nb.no/nbsok/search?page=0&menuOpen=false&instant=true&action=search&currentHit=-1&searchString={{{s}}}",
+    "u": "https://www.nb.no/search?q={{{s}}}",
     "c": "Multimedia",
     "sc": "Books"
   },
@@ -61704,7 +61840,7 @@
     "s": "NDLA",
     "d": "ndla.no",
     "t": "ndla",
-    "u": "https://ndla.no/en/search/apachesolr_search/{{{s}}}?language[]=und&filters=1/",
+    "u": "https://ndla.no/search?query={{{s}}}",
     "c": "Research",
     "sc": "Academic"
   },
@@ -62902,6 +63038,14 @@
     "sc": "Downloads"
   },
   {
+    "s": "MyNixOS",
+    "d": "mynixos.com",
+    "t": "mynixos",
+    "u": "https://mynixos.com/search?q={{{s}}}",
+    "c": "Tech",
+    "sc": "Sysadmin"
+  },
+  {
     "s": "Njalla",
     "d": "njal.la",
     "t": "njalla",
@@ -63028,6 +63172,14 @@
     "u": "https://nolife-wiki.fr/index.php?title=Spécial:Recherche&go=Lire&search={{{s}}}",
     "c": "Research",
     "sc": "Reference"
+  },
+  {
+    "s": "Llyfrgell Genedlaethol Cymru = The National Library of Wales",
+    "d": "discover.library.wales",
+    "t": "nlwc",
+    "u": "https://discover.library.wales/discovery/search?query=any,contains,{{{s}}}&tab=In_The_Library&search_scope=In_The_Library&vid=44WHELF_NLW:44WHELF_NLW_NUI&offset=0",
+    "c": "Research",
+    "sc": "Academic"
   },
   {
     "s": "Naver Map",
@@ -63306,7 +63458,7 @@
     "s": "Norid",
     "d": "www.norid.no",
     "t": "norid",
-    "u": "https://www.norid.no/index.html?charset=UTF-8&page=index&sok=Søk&query={{{s}}}",
+    "u": "https://www.norid.no/?s={{{s}}}",
     "c": "Tech",
     "sc": "Domains"
   },
@@ -64480,6 +64632,14 @@
     "u": "https://data.europa.eu/euodp/en/data/dataset?q={{{s}}}",
     "c": "Research",
     "sc": "Government"
+  },
+  {
+    "s": "European Vulnerability Database",
+    "d": "euvd.enisa.europa.eu",
+    "t": "euvd",
+    "u": "https://euvd.enisa.europa.eu/search?text={{{s}}}",
+    "c": "Tech",
+    "sc": "Sysadmin (network)"
   },
   {
     "s": "Oxford Dictionaries",
@@ -66418,9 +66578,9 @@
     "s": "openSUSE",
     "d": "software.opensuse.org",
     "t": "os",
-    "u": "https://software.opensuse.org/search?utf8=%E2%9C%93&q={{{s}}}&search_devel=false&search_unsupported=false&baseproject=openSUSE:13.1",
+    "u": "https://software.opensuse.org/search?q={{{s}}}",
     "c": "Tech",
-    "sc": "Sysadmin (RedHat)"
+    "sc": "Sysadmin"
   },
   {
     "s": "Open Source Routing Machine",
@@ -70810,7 +70970,7 @@
     "s": "Posten",
     "d": "sporing.posten.no",
     "t": "posten",
-    "u": "https://sporing.posten.no/sporing.html?lang=no&q={{{s}}}&submit=",
+    "u": "https://sporing.posten.no/sporing.html/{{{s}}}",
     "c": "Online Services",
     "sc": "Tracking"
   },
@@ -85088,6 +85248,14 @@
     "sc": "Tracking"
   },
   {
+    "s": "Swiss Post",
+    "d": "www.post.ch",
+    "t": "postch",
+    "u": "https://www.post.ch/EasyTrack/submitParcelData.do?formattedParcelCodes={{{s}}}",
+    "c": "Shopping",
+    "sc": "Services"
+  },
+  {
     "s": "SWI-Prolog",
     "d": "www.swi-prolog.org",
     "t": "swi",
@@ -85913,9 +86081,9 @@
   },
   {
     "s": "TARDIS Data Core",
-    "d": "tardis.wikia.com",
+    "d": "tardis.wiki",
     "t": "tardis",
-    "u": "https://tardis.wikia.com/wiki/Special:Search?search={{{s}}}",
+    "u": "https://tardis.wiki/wiki/Special:Search?search={{{s}}}",
     "c": "Entertainment",
     "sc": "TV"
   },
@@ -93257,7 +93425,7 @@
     "s": "VårtOslo",
     "d": "www.vartoslo.no",
     "t": "vartoslo",
-    "u": "https://www.vartoslo.no/?s={{{s}}}",
+    "u": "https://www.vartoslo.no/cse?q={{{s}}}",
     "c": "News",
     "sc": "Newspaper"
   },
@@ -93842,7 +94010,7 @@
     "s": "VIAF (Virtual Internet Authority File)",
     "d": "viaf.org",
     "t": "viaf",
-    "u": "https://viaf.org/viaf/search?query=local.names+all+\"{{{s}}}\"&stylesheet=/viaf/xsl/results.xsl&sortKeys=holdingscount&maximumRecords=100",
+    "u": "https://viaf.org/en/viaf/search?field=local%2Cnames&index=VIAF&searchTerms={{{s}}}",
     "c": "Research",
     "sc": "Reference"
   },
@@ -97537,14 +97705,6 @@
     "u": "https://windows.microsoft.com/en-US/windows/search#q={{{s}}}",
     "c": "Entertainment",
     "sc": "Misc"
-  },
-  {
-    "s": "Windows Store",
-    "d": "windows.microsoft.com",
-    "t": "winstore",
-    "u": "https://windows.microsoft.com/en-us/windows/search#q={{{s}}}&s=Store",
-    "c": "Tech",
-    "sc": "Downloads (apps)"
   },
   {
     "s": "WION",
@@ -102647,7 +102807,15 @@
     ]
   },
   {
-    "s": "English Wikipedia",
+    "s": "Wikispecies",
+    "d": "species.wikimedia.org",
+    "t": "wikispecies",
+    "u": "https://species.wikimedia.org/w/index.php?search={{{s}}}",
+    "c": "Research",
+    "sc": "Academic"
+  },
+  {
+    "s": "Wikipedia",
     "d": "en.wikipedia.org",
     "t": "wikipedia",
     "u": "https://en.wikipedia.org/w/index.php?search={{{s}}}",
@@ -102655,7 +102823,7 @@
     "sc": "Reference"
   },
   {
-    "s": "English Wikipedia",
+    "s": "Wikipedia",
     "d": "en.wikipedia.org",
     "t": "wiki",
     "u": "https://en.wikipedia.org/w/index.php?search={{{s}}}",
@@ -102663,7 +102831,7 @@
     "sc": "Reference"
   },
   {
-    "s": "English Wikipedia",
+    "s": "Wikipedia",
     "d": "en.wikipedia.org",
     "t": "w",
     "u": "https://en.wikipedia.org/w/index.php?search={{{s}}}",
@@ -102671,7 +102839,15 @@
     "sc": "Reference"
   },
   {
-    "s": "English Wikipedia",
+    "s": "Wikipedia",
+    "d": "en.wikipedia.org",
+    "t": "encyclopedia",
+    "u": "https://en.wikipedia.org/w/index.php?search={{{s}}}",
+    "c": "Research",
+    "sc": "Reference"
+  },
+  {
+    "s": "Wikipedia",
     "d": "en.wikipedia.org",
     "t": "wen",
     "u": "https://en.wikipedia.org/w/index.php?search={{{s}}}",
@@ -102679,7 +102855,7 @@
     "sc": "Reference"
   },
   {
-    "s": "English Wikipedia",
+    "s": "Wikipedia",
     "d": "en.wikipedia.org",
     "t": "enwiki",
     "u": "https://en.wikipedia.org/w/index.php?search={{{s}}}",
@@ -102687,12 +102863,76 @@
     "sc": "Reference"
   },
   {
-    "s": "English Wikipedia",
+    "s": "Wikipedia",
     "d": "en.wikipedia.org",
     "t": "wikien",
     "u": "https://en.wikipedia.org/w/index.php?search={{{s}}}",
     "c": "Research",
     "sc": "Reference"
+  },
+  {
+    "s": "Wikipedia",
+    "d": "en.wikipedia.org",
+    "t": "w.en",
+    "u": "https://en.wikipedia.org/w/index.php?search={{{s}}}",
+    "c": "Research",
+    "sc": "Reference"
+  },
+  {
+    "s": "Wikipedia",
+    "d": "en.wikipedia.org",
+    "t": "wi",
+    "u": "https://en.wikipedia.org/w/index.php?search={{{s}}}",
+    "c": "Research",
+    "sc": "Reference"
+  },
+  {
+    "s": "Wikipedia",
+    "d": "en.wikipedia.org",
+    "t": "wk",
+    "u": "https://en.wikipedia.org/w/index.php?search={{{s}}}",
+    "c": "Research",
+    "sc": "Reference"
+  },
+  {
+    "s": "Wikipedia",
+    "d": "en.wikipedia.org",
+    "t": "we",
+    "u": "https://en.wikipedia.org/w/index.php?search={{{s}}}",
+    "c": "Research",
+    "sc": "Reference"
+  },
+  {
+    "s": "Wikipedia Random in Category",
+    "d": "en.wikipedia.org",
+    "t": "wrand",
+    "u": "https://en.wikipedia.org/wiki/Special:RandomInCategory/{{{s}}}",
+    "c": "Research",
+    "sc": "Learning"
+  },
+  {
+    "s": "Wikipedia Band Discography",
+    "d": "en.wikipedia.org",
+    "t": "wdg",
+    "u": "https://en.wikipedia.org/w/index.php?title=Special:Search&search={{{s}}}+discography",
+    "c": "Research",
+    "sc": "Reference"
+  },
+  {
+    "s": "Wikipedia Modules",
+    "d": "en.wikipedia.org",
+    "t": "wikimodule",
+    "u": "https://en.wikipedia.org/wiki/Module:{{{s}}}",
+    "c": "Research",
+    "sc": "Academic"
+  },
+  {
+    "s": "Wikipedia Templates",
+    "d": "en.wikipedia.org",
+    "t": "wikitemplate",
+    "u": "https://en.wikipedia.org/wiki/Template:{{{s}}}",
+    "c": "Research",
+    "sc": "Academic"
   },
   {
     "s": "German Wikipedia",
@@ -106119,14 +106359,6 @@
     "sc": "Reference"
   },
   {
-    "s": "Wikipedia",
-    "d": "en.wikipedia.org",
-    "t": "encyclopedia",
-    "u": "https://en.wikipedia.org/wiki/Special:Search?search={{{s}}}",
-    "c": "Research",
-    "sc": "Academic"
-  },
-  {
     "s": "Google de.Wikipedia",
     "d": "www.google.de",
     "ad": "de.wikipedia.org",
@@ -106167,14 +106399,6 @@
     "u": "https://ja.wikipedia.org/w/index.php?search={{{s}}}",
     "c": "Research",
     "sc": "Reference"
-  },
-  {
-    "s": "Wikipedia",
-    "d": "en.wikipedia.org",
-    "t": "module",
-    "u": "https://en.wikipedia.org/wiki/Module:{{{s}}}",
-    "c": "Tech",
-    "sc": "Languages (lua)"
   },
   {
     "s": "Dutch Wikipedia",
@@ -106231,14 +106455,6 @@
     "u": "https://ta.wikipedia.org/w/index.php?search={{{s}}}",
     "c": "Research",
     "sc": "Learning (intl)"
-  },
-  {
-    "s": "Wikipedia Templates",
-    "d": "en.wikipedia.org",
-    "t": "template",
-    "u": "https://en.wikipedia.org/wiki/Template:{{{s}}}",
-    "c": "Tech",
-    "sc": "Languages (lua)"
   },
   {
     "s": "Vicipaedia",
@@ -106337,34 +106553,10 @@
     "sc": "Games (Pokemon)"
   },
   {
-    "s": "wikipedia.org Band Discography",
-    "d": "en.wikipedia.org",
-    "t": "wdg",
-    "u": "https://en.wikipedia.org/w/index.php?title=Special:Search&search={{{s}}}+discography",
-    "c": "Research",
-    "sc": "Reference"
-  },
-  {
     "s": "Wikipedia (DK)",
     "d": "da.wikipedia.org",
     "t": "wdk",
     "u": "https://da.wikipedia.org/w/index.php?search={{{s}}}",
-    "c": "Research",
-    "sc": "Reference"
-  },
-  {
-    "s": "Wikipedia (English)",
-    "d": "en.wikipedia.org",
-    "t": "w.en",
-    "u": "https://en.wikipedia.org/wiki/Special:Search?search={{{s}}}",
-    "c": "Research",
-    "sc": "Learning"
-  },
-  {
-    "s": "Wikipedia in Spanish",
-    "d": "en.wikipedia.org",
-    "t": "w-es",
-    "u": "https://en.wikipedia.org/wiki/Special:Search?search={{{s}}}",
     "c": "Research",
     "sc": "Reference"
   },
@@ -106375,14 +106567,6 @@
     "u": "https://eu.wikipedia.org/wiki/Special:Search?search={{{s}}}",
     "c": "Research",
     "sc": "Academic"
-  },
-  {
-    "s": "Wikipedia",
-    "d": "en.wikipedia.org",
-    "t": "we",
-    "u": "https://en.wikipedia.org/wiki/{{{s}}}",
-    "c": "Research",
-    "sc": "Reference"
   },
   {
     "s": "fr.wikipedia.org",
@@ -106465,26 +106649,10 @@
     "sc": "Learning"
   },
   {
-    "s": "Wikispecies",
-    "d": "en.wikipedia.org",
-    "t": "wikispecies",
-    "u": "https://en.wikipedia.org/wiki/Special:Search?search={{{s}}}",
-    "c": "Research",
-    "sc": "Learning"
-  },
-  {
     "s": "Wikipedia Vietnamese",
     "d": "vi.wikipedia.org",
     "t": "wiki-vn",
     "u": "https://vi.wikipedia.org/w/index.php?search={{{s}}}",
-    "c": "Research",
-    "sc": "Reference"
-  },
-  {
-    "s": "Wikipedia",
-    "d": "en.wikipedia.org",
-    "t": "wi",
-    "u": "https://en.wikipedia.org/wiki/Special:Search?search={{{s}}}",
     "c": "Research",
     "sc": "Reference"
   },
@@ -106503,14 +106671,6 @@
     "u": "https://ja.wikipedia.org/wiki/{{{s}}}",
     "c": "Research",
     "sc": "Reference"
-  },
-  {
-    "s": "wikipedia",
-    "d": "en.wikipedia.org",
-    "t": "wk",
-    "u": "https://en.wikipedia.org/w/index.php?search={{{s}}}",
-    "c": "Research",
-    "sc": "Academic"
   },
   {
     "s": "Wikipedia Deutsch Mobile",
@@ -106551,14 +106711,6 @@
     "u": "https://fr.wikipedia.org/wiki/{{{s}}}",
     "c": "Research",
     "sc": "Learning (intl)"
-  },
-  {
-    "s": "Wikipedia Random in Category",
-    "d": "en.wikipedia.org",
-    "t": "wrand",
-    "u": "https://en.wikipedia.org/wiki/Special:RandomInCategory/{{{s}}}",
-    "c": "Research",
-    "sc": "Learning"
   },
   {
     "s": "Russian Wikipedia",
@@ -107109,7 +107261,7 @@
     "s": "Kagi Translate (Proofread)",
     "d": "translate.kagi.com",
     "t": "kpr",
-    "u": "https://translate.kagi.com/?text={{{s}}}&from=Automatic&to=Proofread",
+    "u": "https://translate.kagi.com/proofread?text={{{s}}}&from=auto",
     "c": "Translation",
     "sc": "General"
   },
@@ -107189,11 +107341,11 @@
     "sc": "Music"
   },
   {
-    "s": "Chromium Code Search",
-    "d": "source.chromium.org",
-    "t": "chromium",
-    "u": "https://source.chromium.org/search?q={{{s}}}&ss=chromium/chromium/src",
-    "c": "Tech",
-    "sc": "Programming"
+    "s": "Libro.fm",
+    "d": "libro.fm",
+    "t": "Libro",
+    "u": "https://libro.fm/search?utf8=%E2%9C%93&q={{{s}}}",
+    "c": "Shopping",
+    "sc": "Online"
   }
 ]
